@@ -1,0 +1,57 @@
+/* Container that will hold the entire content including footer */
+.scholarship-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the container takes the full height of the viewport */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.scholarship-container h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.scholarship-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.scholarship-table thead th {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.scholarship-table tbody td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.scholarship-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.scholarship-table tbody tr:hover {
+  background-color: #e0eaff;
+}
+
+.scholarship-link {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.scholarship-link:hover {
+  text-decoration: underline;
+}
+
+
+
